@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 20px;
+}
+
+.navbar .btn {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.profile-section img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.profile-section h4 {
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.list-group {
+    width: 100%;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.list-group-item-action:hover {
+    background-color: #e2e6ea;
+    color: #333;
+}
+
+.content-placeholder {
+    background-color: #e2e6ea;
+    border: 1px solid #dee2e6;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    margin-left: 20px;
+    margin-top: 125px;
+}
+.content-placeholder_1 {
+    position: relative;
+    background-color: #e2e6ea;
+    border: 1px solid #dee2e6;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    margin-left: 20px;
+    margin-top: 125px;
+    width: 100%;
+}
+
+
+.content-placeholder_2 {
+    background-color: #e2e6ea;
+    border: 1px solid #dee2e6;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    margin-left: 310px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
